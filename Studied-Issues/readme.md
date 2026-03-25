@@ -48,17 +48,17 @@ Overall, we select 42 query optimization issues for Neo4j, 11 query optimizatio 
 | 29 |Neo4j|[Neo4j-13034](https://github.com/neo4j/neo4j/issues/13034) | 4 | NO | NO | Performance | Unknown | Unknown |
 | 30 |Neo4j|[Neo4j-13036](https://github.com/neo4j/neo4j/issues/13036) | 1 | NO | YES | Performance | Unknown | Unknown |
 | 31 |Neo4j|[Neo4j-13147](https://github.com/neo4j/neo4j/issues/13147) | 6 | YES | NO | Error | YES | Design|
-| 32 |Neo4j|[Neo4j-13166](https://github.com/neo4j/neo4j/issues/13166) | 2 | YES | NO | Error | NO | POC(https://github.com/neo4j/neo4j/commit/746bd25de708f531018da509876a7927384a38d5) |
+| 32 |Neo4j|[Neo4j-13166](https://github.com/neo4j/neo4j/issues/13166) | 2 | YES | NO | Error | NO | [POC](https://github.com/neo4j/neo4j/commit/746bd25de708f531018da509876a7927384a38d5) |
 | 33 |Neo4j|[Neo4j-13169](https://github.com/neo4j/neo4j/issues/13169) | 14 | YES | NO | Error | Unknown | Unknown |
 | 34 |Neo4j|[Neo4j-13189](https://github.com/neo4j/neo4j/issues/13189) | 14 | YES | NO | Error | NO | Other| 
 | 35 |Neo4j|[Neo4j-13210](https://github.com/neo4j/neo4j/issues/13210) | 9 | NO | NO| Unknown | Unknown |Unknown|
 | 36 |Neo4j|[Neo4j-13245](https://github.com/neo4j/neo4j/issues/13245) | 2 | YES | NO | Error | NO | COND|
-| 37 |Neo4j|[Neo4j-13246](https://github.com/neo4j/neo4j/issues/13246) | 4 | YES | NO | Error | NO | CONDStat(https://github.com/neo4j/neo4j/commit/05d7950e7e2b87bfbabced460b943e561f7a2a06)|
+| 37 |Neo4j|[Neo4j-13246](https://github.com/neo4j/neo4j/issues/13246) | 4 | YES | NO | Error | NO | [CONDStat](https://github.com/neo4j/neo4j/commit/05d7950e7e2b87bfbabced460b943e561f7a2a06)|
 | 38 |Neo4j|[Neo4j-13354](https://github.com/neo4j/neo4j/issues/13354) | 10 | NO | YES | Performance | NO | CONDStat|
-| 39 |Neo4j|[Neo4j-13382](https://github.com/neo4j/neo4j/issues/13382) | 4 | YES | YES | Wrong | NO | CONDStat + POC(https://github.com/neo4j/neo4j/commit/2522d735934c8a38e100888fd8eb51bbb9efe600)|
+| 39 |Neo4j|[Neo4j-13382](https://github.com/neo4j/neo4j/issues/13382) | 4 | YES | YES | Wrong | NO | [CONDStat + POC](https://github.com/neo4j/neo4j/commit/2522d735934c8a38e100888fd8eb51bbb9efe600)|
 | 40 |Neo4j|[Neo4j-13427](https://github.com/neo4j/neo4j/issues/13427) | 4 | YES | NO | Error | NO | Design| 
-| 41 |Neo4j|[Neo4j-13486](https://github.com/neo4j/neo4j/issues/13486) | 4 | YES | NO | Error | NO | COND(https://github.com/neo4j/neo4j/commit/caa89ad60ea53b376568feb5092b3c0f3bb10dab)|
-| 42 |Neo4j|[Neo4j-13552](https://github.com/neo4j/neo4j/issues/13552) | 4 | YES | NO | Error | NO | Design(https://github.com/neo4j/neo4j/commit/b22e9d87f87ede42e806683c4ba4e0e3587ab662) |
+| 41 |Neo4j|[Neo4j-13486](https://github.com/neo4j/neo4j/issues/13486) | 4 | YES | NO | Error | NO | [COND](https://github.com/neo4j/neo4j/commit/caa89ad60ea53b376568feb5092b3c0f3bb10dab)|
+| 42 |Neo4j|[Neo4j-13552](https://github.com/neo4j/neo4j/issues/13552) | 4 | YES | NO | Error | NO | [Design](https://github.com/neo4j/neo4j/commit/b22e9d87f87ede42e806683c4ba4e0e3587ab662) |
 |------|------|------|------|------|------|------|------|------|
 | 43 |Memgraph|[Memgraph-1293](https://github.com/memgraph/memgraph/issues/1293) | 7 | NO | NO | Crash | NO | Other| 
 | 44 |Memgraph|[Memgraph-1295](https://github.com/memgraph/memgraph/issues/1295) | 6 | NO | YES | Crash | NO | Design |
