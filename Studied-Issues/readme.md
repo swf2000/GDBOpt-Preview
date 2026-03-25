@@ -59,7 +59,6 @@ Overall, we select 42 query optimization issues for Neo4j, 11 query optimizatio 
 | 40 |Neo4j|[Neo4j-13427](https://github.com/neo4j/neo4j/issues/13427) | 4 | YES | NO | Error | NO | Design| 
 | 41 |Neo4j|[Neo4j-13486](https://github.com/neo4j/neo4j/issues/13486) | 4 | YES | NO | Error | NO | [COND](https://github.com/neo4j/neo4j/commit/caa89ad60ea53b376568feb5092b3c0f3bb10dab)|
 | 42 |Neo4j|[Neo4j-13552](https://github.com/neo4j/neo4j/issues/13552) | 4 | YES | NO | Error | NO | [Design](https://github.com/neo4j/neo4j/commit/b22e9d87f87ede42e806683c4ba4e0e3587ab662) |
-|------|------|------|------|------|------|------|------|------|
 | 43 |Memgraph|[Memgraph-1293](https://github.com/memgraph/memgraph/issues/1293) | 7 | NO | NO | Crash | NO | Other| 
 | 44 |Memgraph|[Memgraph-1295](https://github.com/memgraph/memgraph/issues/1295) | 6 | NO | YES | Crash | NO | Design |
 | 45 |Memgraph|[Memgraph-1416](https://github.com/memgraph/memgraph/issues/1416) | 11 | NO | NO | Performance | YES | Unknown |
@@ -71,7 +70,6 @@ Overall, we select 42 query optimization issues for Neo4j, 11 query optimizatio 
 | 51 |Memgraph|[Memgraph-2116](https://github.com/memgraph/memgraph/issues/2116) | 4 | YES | NO | Crash | YES | CONDStat |
 | 52 |Memgraph|[Memgraph-2456](https://github.com/memgraph/memgraph/issues/2456) | 10 | YES | YES | Unknown | NO | Design |
 | 53 |Memgraph|[Memgraph-2491](https://github.com/memgraph/memgraph/issues/2491) | 10 | YES | YES | Crash | NO | Other |
-|------|------|------|------|------|------|------|------|------|
 | 54 |Redisgraph|[Redisgraph-135](https://github.com/RedisGraph/RedisGraph/issues/135) | 11 | --| NO | Crash | NO | CONDStat |
 | 55 |Redisgraph|[Redisgraph-192](https://github.com/RedisGraph/RedisGraph/issues/192) | 6 | -- | NO | Crash | NO | Design | 
 | 56 |Redisgraph|[Redisgraph-249](https://github.com/RedisGraph/RedisGraph/issues/249) | 5 | -- | YES | Wrong | NO | Design | 
@@ -101,7 +99,6 @@ Overall, we select 42 query optimization issues for Neo4j, 11 query optimizatio 
 | 80 |Redisgraph|[Redisgraph-2424](https://github.com/RedisGraph/RedisGraph/issues/2424) | 14 | -- | NO | Crash | YES | Design |
 | 81 |Redisgraph|[Redisgraph-2631](https://github.com/RedisGraph/RedisGraph/issues/2631) | 12 | -- | NO | Crash | YES | Design |
 | 82 |Redisgraph|[Redisgraph-2836](https://github.com/RedisGraph/RedisGraph/issues/2836) | 7 | -- | NO | Crash | NO | Design |
-|------|------|------|------|------|------|------|------|------|
 | 83 |Kuzu|[Kuzu-103](https://github.com/kuzudb/kuzu/issues/103) | 10 | -- | Unknown | Unknown | NO | Design |
 | 84 |Kuzu|[Kuzu-112](https://github.com/kuzudb/kuzu/issues/112) | 10 | -- | NO | Performance | NO | Design |
 | 85 |Kuzu|[Kuzu-127](https://github.com/kuzudb/kuzu/issues/127) | 6 | -- | NO | Unknown | NO | Design |
