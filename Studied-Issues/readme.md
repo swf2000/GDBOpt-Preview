@@ -1,6 +1,6 @@
-Overall, we select 42 query optimization issues for Neo4j, 11 query optimizatio issues for Memgraph, 29 query optimizatio issues for Redisgraph, and 20 query optimizatio issues for kuzu. The following table contains the links for these issues, and our empirical study results concerning their root causes, manfiestations, and fix strategies. 
+Overall, we select 42 query optimization issues for Neo4j, 11 query optimizatio issues for Memgraph, 29 query optimizatio issues for Redisgraph, and 20 query optimizatio issues for kuzu. The following table contains the links for these issues, and our empirical study results concerning their root causes, manfiestations, and fix strategies. To help present the root causes, the different root cause categories are denoted using numbers as follows:
 
-- examples: stores all program synthesis problems
+- 1: Ignore specific legal query formats 
   - `brahma.rs`: stores the data set composed of tf-coder data set and stackoverflow original problems
   - `myexample.rs`: stores own data set
   - You can add other data sets in this directory
