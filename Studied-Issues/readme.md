@@ -1,5 +1,24 @@
 Overall, we select 42 query optimization issues for Neo4j, 11 query optimizatio issues for Memgraph, 29 query optimizatio issues for Redisgraph, and 20 query optimizatio issues for kuzu. The following table contains the links for these issues, and our empirical study results concerning their root causes, manfiestations, and fix strategies. 
 
+- examples: stores all program synthesis problems
+  - `brahma.rs`: stores the data set composed of tf-coder data set and stackoverflow original problems
+  - `myexample.rs`: stores own data set
+  - You can add other data sets in this directory
+- result: Stores the running results, divided into 5 minutes, 10 minutes, and 15 minutes
+  - The datasets are divided into 3 parts. Stackoverflow original problems output files' names start with `new_stackoverflow`, tf-coder data set output files' names starts with `test`, `duplicate`, `simple`, `google`, `stackoverflow` or `autopandas`, own data set output files' names starts with `prog`
+- src: the core part of program synthesis
+  - BayesNetwork: the storage location of the Bayesian network
+    - data: the data for building the Bayesian network
+    - `bayes_main.py`: code for building the Bayesian network, for details, refer to `Readme.md`
+  - createBayesNetwork: The process of building a Bayesian network, for details, refer to `readme.md`
+  - `operator.rs`: records all the contents that appear in the project, that is, variable definitions, free variables (large constants) and components
+  - `builder.rs`: uses the contents defined in `operator.rs` in examples
+  - `component.rs`: Encode the components defined in `operator.rs`
+  - `fake_logging.rs`: File used for simulation output, no need to process
+  - `lib.rs`: The code for program synthesis, filtering algorithms and filtering conditions, and components used during synthesis are all in this directory
+- `Cargo.toml`: Rust package configuration file, which can be set if third-party libraries need to be installed or adjusted
+- `rustfmt.toml`: Format rust code
+
 
 | ID  | GDBMS  | Issue|
 |------|------|------|
