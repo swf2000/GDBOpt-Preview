@@ -38,9 +38,9 @@ Overall, we select 42 query optimization issues for Neo4j, 11 query optimizatio 
 | 19 |Neo4j|[Neo4j-12329](https://github.com/neo4j/neo4j/issues/12329) | 10 | NO | YES | Error | YES | Unknown |
 | 20 |Neo4j|[Neo4j-12484](https://github.com/neo4j/neo4j/issues/12484) | 10 | NO | YES | Error | NO | Design| 
 | 21 |Neo4j|[Neo4j-12583](https://github.com/neo4j/neo4j/issues/12583) | 6 | NO | NO | Wrong | NO | Design |
-| 22 |Neo4j|[Neo4j-12618](https://github.com/neo4j/neo4j/issues/12618) | 6 | YES | YES | Wrong | NO | Other(https://github.com/neo4j/neo4j/commit/afb912a54fce63657a3a763293e7289fbe027732)|
+| 22 |Neo4j|[Neo4j-12618](https://github.com/neo4j/neo4j/issues/12618) | 6 | YES | YES | Wrong | NO | [Other](https://github.com/neo4j/neo4j/commit/afb912a54fce63657a3a763293e7289fbe027732)|
 | 23 |Neo4j|[Neo4j-12759](https://github.com/neo4j/neo4j/issues/12759) | 9 | NO | NO | Performance | Unknown | Unknown| 
-| 24 |Neo4j|[Neo4j-12760](https://github.com/neo4j/neo4j/issues/12760) | 5 | YES | NO | Wrong | NO | Design(https://github.com/neo4j/neo4j/commit/ad37eb99f7374d4a79a60b07cac6a187fae159bd)|
+| 24 |Neo4j|[Neo4j-12760](https://github.com/neo4j/neo4j/issues/12760) | 5 | YES | NO | Wrong | NO | [Design](https://github.com/neo4j/neo4j/commit/ad37eb99f7374d4a79a60b07cac6a187fae159bd)|
 | 25 |Neo4j|[Neo4j-12876](https://github.com/neo4j/neo4j/issues/12876) | 1 | NO | NO | Error | YES | Unknown| 
 | 26 |Neo4j|[Neo4j-12926](https://github.com/neo4j/neo4j/issues/12926) | 7 | NO | NO | Performance | NO | Design |
 | 27 |Neo4j|[Neo4j-12973](https://github.com/neo4j/neo4j/issues/12973) | 1 | NO | NO | Performance | NO | COND |
